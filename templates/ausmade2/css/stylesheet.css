@@ -1,0 +1,481 @@
+/**
+* Main CSS Stylesheet
+*
+* @package templateSystem
+* @copyright Copyright 2003-2007 Zen Cart Development Team
+* @copyright Portions Copyright 2003 osCommerce
+* @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+* @version $Id: stylesheet.css 39 2011-12-30 23:35:44Z zcsfsvn $
+*/
+
+* { padding: 0; margin:0;}
+
+body { font-family: sans-serif; font-size: 90%; color: #333; }
+
+img a { border:none; }
+
+a:visited, a:link { color: #004080; text-decoration: none; }
+a:hover { text-decoration: underline; } 
+
+input, textarea , button { 
+background: #F8F8F8;
+border: 1px solid #A9A9A9;
+padding: 4px;
+margin: 2px 0;
+}
+
+input:hover, textarea:hover, button:hover { border-color: #999999; }
+input:focus, textarea:focus { border-color: #408000; }
+
+textarea { width: 99%; }
+
+fieldset { padding: 0.5em; margin: 0.5em 0em; border: 1px solid #408000; }
+
+legend { font-style: italic; padding: 0.3em; }
+
+label, h4.optionName { line-height: 1.5em; padding: 0.2em; }
+
+label.checkboxLabel, label.radioButtonLabel { margin: 0.5em 0.3em; }
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.3em; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0.3em 0; }
+
+.cssButton, .cssButtonHover { cursor: pointer; }
+
+#logo, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .centerBoxContentsAlsoPurch, .attribImg {
+float: left;
+}
+
+label.inputLabel { width: 9em; float: left; }
+
+label.inputLabelPayment { width: 14em; float: left; padding-left: 2.5em; }
+
+label.selectLabel, label.switchedLabel, label.uploadsLabel {
+width: 11em;
+float: left;
+}
+
+#checkoutPayment label.radioButtonLabel { font-weight: bold; }
+
+.clearBoth { clear: both; }
+
+/*warnings, errors, messages*/
+.messageStackWarning, .messageStackError, .messageStackSuccess, .messageStackCaution {
+position:fixed;
+top:0;
+margin: 10px 0px;
+padding: 5px 10px;
+border: 1px solid;
+}
+
+.messageStackWarning img, .messageStackError img, .messageStackSuccess img, .messageStackCaution img {
+vertical-align: middle;
+}
+
+.messageStackError { background-color:#ffbaba; color: #d8000c; }
+
+.messageStackSuccess { background-color: #dff2bf; color: #4f8a10; 
+}
+
+.messageStackCaution,.messageStackWarning{ background-color: #feefb3;
+color: #9f6000;
+}
+
+/*wrappers - page or section containers*/
+#mainWrapper { text-align: left; width: 1024px; vertical-align: top; }
+
+#logoWrapper{ height:75px; padding:0.5em; }
+
+#navColumnOneWrapper, #navColumnTwoWrapper, #mainWrapper { margin: auto; } 
+
+#navColumnOneWrapper, #navColumnTwoWrapper {
+margin-left: 0.5em;
+margin-right: 0.5em;
+}
+
+#tagline {
+vertical-align: middle;
+font: bold 2.5em 'Port Lligat Slab';
+text-shadow: 1px 2px 0 #888888;
+color:#f3b000;
+margin-top: 30px;
+margin-left: 120px;
+}
+
+#sendSpendWrapper {
+border: 1px solid #408000;
+float: right;
+margin: 0 0 1em 1em;
+}
+
+.floatingBox, #sendSpendWrapper, #checkoutShipto, #checkoutBillto, #navEZPagesTOCWrapper {
+width: 47%;
+}
+
+.wrapperAttribsOptions { margin: 0.3em 0em; }
+
+/*navigation*/
+
+.navSplitPagesResult {}
+.navSplitPagesLinks {}
+
+.navNextPrevCounter { margin: 0em; font-size: 0.9em; }
+
+.navNextPrevList {
+display: inline;
+white-space: nowrap;
+padding: 0.5em 0em;
+list-style-type: none;
+}
+
+#navMainWrapper, #navSuppWrapper, #navCatTabsWrapper {
+height: 1%;
+float:right;
+}
+
+#navCatTabsWrapper {
+background-color: #ffffff;
+color: #408000;
+background-image:none;
+}
+
+#navMain ul, #navSupp ul, #navCatTabs ul {
+padding: 0.5em 0em;
+list-style-type: none;
+text-align: center;
+line-height: 1.5em;
+}
+
+#navMain ul li, #navSupp ul li, #navCatTabs ul li { display: inline; }
+
+#navMain ul li a, #navSupp ul li a, #navCatTabs ul li a {
+text-decoration: none;
+padding: 0em 0.5em;
+white-space: nowrap;
+}
+
+#navCatTabs ul li a { color: #408000; }
+
+#navEZPagesTOCWrapper {
+font-weight: bold;
+float: right;
+height: 1%;
+border: 1px solid #408000;
+}
+
+#navEZPagesTOC ul {
+padding: 0.5em 0em;
+list-style-type: none;
+line-height: 1.5em;
+}
+
+#navEZPagesTOC ul li { white-space: nowrap; }
+
+#navEZPagesTOC ul li a { padding: 0em 0.5em; }
+
+#navCategoryIcon, .buttonRow, #indexProductListCatDescription { margin: 0.5em; }
+
+#navMainSearch { float: right; }
+
+#navBreadCrumb {
+padding: 0.5em 0.5em;
+font-size: 0.95em;
+font-weight: bold;
+margin: 0em;
+}
+
+#navEZPagesTop {
+background-color: #408000;
+margin-left: 120px;
+margin-top:1.25em;
+padding:0.5em;
+overflow:hidden;
+}
+
+#indexProductList { margin-top:0.5em; }
+
+#navEZPagesTop a:link, #navEZPagesTop a:active, #navEZPagesTop a:visited {
+color: #fff;
+}
+
+#navEZPagesTop a:hover { color:#fff; }
+
+#navEZPagesTop ul { list-style-type: none; text-align: center; }
+
+#navEZPagesTop ul li { display:inline; }
+
+#navEZPagesTop ul li a, #navEZPagesTop ul li a:hover { padding: 0.7em; }
+
+#navColumnOne, #navColumnTwo { background-color: transparent; }
+
+/*The main content classes*/
+#contentColumnMain, #navColumnOne, #navColumnTwo, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .alert {
+vertical-align: top;
+}
+
+/*.content,*/ #productDescription, .shippingEstimatorWrapper {
+/*font-size: 1.2em;*/
+padding: 0.5em;
+}
+
+.alert { color: #FF0000; margin-left: 0.5em; }
+.advisory {}
+.important { font-weight: bold; }
+.notice {}
+.rating {}
+.gvBal { float: right; }
+
+.smallText, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP {
+font-size: 0.9em;
+}
+
+/*Shopping Cart Display*/
+#cartAdd {
+float: right;
+text-align: center;
+border: 1px solid #408000;
+padding: 0.5em 25px;
+}
+
+.tableHeading TH { border-bottom: 1px solid #408000; }
+
+.tableHeading, #cartSubTotal { background-color: #e9e9e9; }
+
+#cartSubTotal {
+border-top: 1px solid #408000;
+text-align: right;
+line-height: 2.2em;
+padding-right: 2.5em;
+}
+
+.tableRow, .tableHeading, #cartSubTotal { height: 2.2em; }
+
+.cartProductDisplay, .cartUnitDisplay, .cartTotalDisplay, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, #cartInstructionsDisplay, .cartTotalsDisplay {
+padding: 0.5em 0em;
+}
+
+.cartUnitDisplay, .cartTotalDisplay { text-align: right; padding-right: 0.2em; }
+
+#scUpdateQuantity { width: 2em; }
+
+.cartQuantity { width: 4.7em; }
+
+ /*do not remove-fixes stupid IEbug*/ 
+.cartNewItem { color: #33CC33; position: relative; }
+
+ /*do not remove-fixes stupid IEbug*/
+.cartOldItem { color: #660099; position: relative; } 
+
+.cartBoxTotal { text-align: right; font-weight: bold; }
+
+.cartRemoveItemDisplay { width: 3.5em; }
+
+.cartAttribsList { margin-left: 1em; } 
+
+#mediaManager {
+width: 50%; 
+margin: 0.2em;
+padding: 0.5em;
+background-color: #E4FEf5;
+border: 1px solid #003D00;
+}
+
+.mediaTitle { float: left; }
+
+.mediaTypeLink { float: right; }
+
+.normalprice, .productSpecialPriceSale { text-decoration: line-through; }
+
+.productSpecialPrice, .productSalePrice, .productSpecialPriceSale, .productPriceDiscount {
+color: #ff0000;
+}
+
+.orderHistList { margin: 1em; padding: 0.2em 0em; list-style-type: none; } 
+
+#cartBoxListWrapper ul, #ezPageBoxList ul { list-style-type: none; }
+
+#cartBoxListWrapper li, #ezPageBoxList li, .cartBoxTotal { padding: 0.2em 0em; } 
+
+#cartBoxEmpty, #cartBoxVoucherBalance { font-weight: bold; }
+
+.totalBox { width: 5.5em; text-align: right; padding: 0.2em; }
+
+.lineTitle, .amount { text-align: right; padding: 0.2em; }
+
+.amount { width: 5.5em; }
+
+/*Image Display*/
+#productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage {
+margin: 0em 1em 1em 0em ;
+}
+
+.categoryIcon {}
+
+#cartImage { margin: 0.5em 1em; }
+
+/*Attributes*/
+.attribImg { width: 20%; margin: 0.3em 0em; }
+
+.attributesComments {}
+
+/*list box contents*/
+.centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew {
+margin: 1em 0em;
+}
+
+.centerColumn { 
+
+    padding-left: 0.7em;
+}
+
+.centerBoxWrapper { border: 1px solid #408000; height: 1%; }
+
+h2.centerBoxHeading { font-size: 1.0em; color: #ffffff; }
+
+/*sideboxes*/
+.columnLeft {}
+
+h3.leftBoxHeading, h3.leftBoxHeading a,
+h3.rightBoxHeading, h3.rightBoxHeading a { font-size: 1em; color: #ffffff; }
+
+#manufacturersHeading, #currenciesHeading, #musicgenresHeading, #recordcompaniesHeading, #searchHeading, #search-headerHeading {
+font-size: 0.9em;
+color: #ffffff;
+}
+
+.leftBoxHeading, .centerBoxHeading, .rightBoxHeading {
+margin: 0em;
+background-color: #408000;
+padding: 0.5em 0.2em;
+}
+
+.leftBoxContainer, .rightBoxContainer {
+margin: 0em;
+border: 1px solid #408000;
+border-bottom: 5px solid #336633;
+margin-top: 0.5em;
+}
+
+.sideBoxContent { ; padding: 0.4em; }
+
+h3.leftBoxHeading a:hover, h3.rightBoxHeading a:hover {
+color: #FFFF33;
+text-decoration: none;
+} 
+
+.rightBoxHeading a:visited, .leftBoxHeading a:visited, .centerBoxHeading a:visited {
+color: #FFFFFF;
+}
+
+.centeredContent, TH, #cartEmptyText, #cartBoxGVButton, #cartBoxEmpty, #cartBoxVoucherBalance, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo, #bannerThree, #bannerFour, #bannerFive, #bannerSix, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, .cartTotalsDisplay, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .productListing-data, .accountQuantityDisplay, .ratingRow, label#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {
+text-align: center;
+}
+
+#bestsellers .wrapper { margin: 0em 0em 0em 1.5em; }
+
+#bestsellers ol { margin-left: 1.1em; }
+
+#bestsellers li { margin: 0.3em 0em 0.3em 0em; }
+
+#bannerboxHeading { background-color: #0000CC; }
+
+#upProductsHeading { text-align: left; }
+
+#upDateHeading { text-align: right; }
+
+/* categories box parent and child categories */
+
+/*
+A.category-top, A.category-top:visited { color: #008000; }
+A.category-links, A.category-links:visited { color: #004080; }
+A.category-subs, A.category-products, A.category-subs:visited, A.category-products:visited {
+color: #FF0000;
+}
+
+*/
+
+ul#myAccountGen, ul#myAccountNotify {
+    list-style-type:none;
+    padding:0 25px;
+}
+
+#categoriesContent { font-size: 90%; } 
+
+SPAN.category-subs-parent { font-weight: bold; }
+SPAN.category-subs-selected { font-weight: bold; }
+
+/* end categories box links */
+
+/*misc*/
+.back { float: left; }
+
+.forward, #shoppingCartDefault #PPECbutton { float: right; }
+
+.bold { font-weight: bold; }
+
+.rowOdd { background-color: #E8E8E8; height: 1.5em; vertical-align: top; }
+
+.rowEven { background-color: #F0F0F0; height: 1.5em; vertical-align: top; }
+
+.hiddenField { display: none; }
+
+.visibleField { display: inline; }
+
+CAPTION { /*display: none;*/ }
+
+.accountTotalDisplay, .accountTaxDisplay { width: 20%; text-align: right;
+/*vertical-align: top*/
+}
+
+.accountQuantityDisplay { width: 10%; vertical-align: top } 
+
+tr.tableHeading { background-color: #cacaca; height: 2em; }
+
+tr.productListing-odd { background:#EEEEEE; }
+
+tr.productListing-even { } 
+
+ul#productDetailsList { 
+width:inherit;
+list-style-type: circle;
+padding:0 25px;
+border:solid 1px #408000;
+}
+
+ul#productDetailsList li { padding:0.5em 0; } 
+
+table.tabTable { border: 1px solid #408000; }
+
+.productListing-rowheading {
+background-color: #408000;
+height: 2em;
+color: #FFFFFF;
+}
+
+a.productListing-heading { color: #FFFFFF; }
+
+#siteMapList { width: 90%; float: right; }
+
+.ratingRow { margin: 1em 0em 1.5em 0em; }
+
+label#textAreaReviews { font-weight: normal; margin: 1em 0em; }
+
+#popupShippingEstimator, #popupSearchHelp, #popupAdditionalImage, #popupImage, #popupCVVHelp, #popupCouponHelp, #popupAtrribsQuantityPricesHelp, #infoShoppingCart {
+background-color: #ffffff;
+}
+.information {padding: 10px 3px; line-height: 150%;}
+
+#shoppingcartBody #shippingEstimatorContent { clear: both; }
+
+.seDisplayedAddressLabel { background-color:#85C285; text-align: center; }
+
+.seDisplayedAddressInfo {
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+}
+
+#seShipTo { padding: 0.2em; }
