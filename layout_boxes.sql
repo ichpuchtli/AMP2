@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.4.10.1deb1
+-- version 3.4.11.1
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 29, 2012 at 12:24 PM
--- Server version: 5.5.24
--- PHP Version: 5.3.10-1ubuntu3.4
+-- Generation Time: Oct 30, 2012 at 01:40 PM
+-- Server version: 5.1.65
+-- PHP Version: 5.2.17
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,16 +17,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `zencart`
+-- Database: `austral_zc1`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `layout_boxes`
+-- Table structure for table `zen_layout_boxes`
 --
 
-CREATE TABLE IF NOT EXISTS `layout_boxes` (
+CREATE TABLE IF NOT EXISTS `zen_layout_boxes` (
   `layout_id` int(11) NOT NULL AUTO_INCREMENT,
   `layout_template` varchar(64) NOT NULL DEFAULT '',
   `layout_box_name` varchar(64) NOT NULL DEFAULT '',
@@ -42,10 +42,10 @@ CREATE TABLE IF NOT EXISTS `layout_boxes` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=99 ;
 
 --
--- Dumping data for table `layout_boxes`
+-- Dumping data for table `zen_layout_boxes`
 --
 
-INSERT INTO `layout_boxes` (`layout_id`, `layout_template`, `layout_box_name`, `layout_box_status`, `layout_box_location`, `layout_box_sort_order`, `layout_box_sort_order_single`, `layout_box_status_single`) VALUES
+INSERT INTO `zen_layout_boxes` (`layout_id`, `layout_template`, `layout_box_name`, `layout_box_status`, `layout_box_location`, `layout_box_sort_order`, `layout_box_sort_order_single`, `layout_box_status_single`) VALUES
 (1, 'default_template_settings', 'banner_box_all.php', 1, 1, 5, 0, 0),
 (2, 'default_template_settings', 'banner_box.php', 1, 0, 300, 1, 127),
 (3, 'default_template_settings', 'banner_box2.php', 1, 1, 15, 1, 15),

@@ -25,11 +25,11 @@ margin: 2px 0;
 }
 
 input:hover, textarea:hover, button:hover { border-color: #999999; }
-input:focus, textarea:focus { border-color: #00584A; }
+input:focus, textarea:focus { border-color: #008364; }
 
 textarea { width: 99%; }
 
-fieldset { padding: 0.5em; margin: 0.5em 0em; border: 1px solid #00584A; }
+fieldset { padding: 0.5em; margin: 0.5em 0em; border: 1px solid #008364; }
 
 legend { font-style: italic; padding: 0.3em; }
 
@@ -100,13 +100,13 @@ margin-right: 0.5em;
 vertical-align: middle;
 font: bold 3.0em 'Port Lligat Slab';
 text-shadow: 1px 2px 0 #888888;
-color:#f3b000;
+color:#FEA931;
 margin-top: 50px;
 margin-left: 120px;
 }
 
 #sendSpendWrapper {
-border: 1px solid #00584A;
+border: 1px solid #008364;
 float: right;
 margin: 0 0 1em 1em;
 }
@@ -138,7 +138,7 @@ float:right;
 
 #navCatTabsWrapper {
 background-color: #ffffff;
-color: #00584A;
+color: #008364;
 background-image:none;
 }
 
@@ -156,13 +156,13 @@ padding: 0em 0.5em;
 white-space: nowrap;
 }
 
-#navCatTabs ul li a { color: #00584A; }
+#navCatTabs ul li a { color: #008364; }
 
 #navEZPagesTOCWrapper {
 font-weight: bold;
 float: right;
 height: 1%;
-border: 1px solid #00584A;
+border: 1px solid #008364;
 }
 
 #navEZPagesTOC ul {
@@ -187,7 +187,7 @@ margin: 0em;
 }
 
 #navEZPagesTop {
-background-color: #00574A;
+background-color: #008364;
 margin-left: 120px;
 margin-top:1.25em;
 padding:0.5em;
@@ -235,16 +235,16 @@ font-size: 0.9em;
 #cartAdd {
 float: right;
 text-align: center;
-border: 1px solid #00584A;
+border: 1px solid #008364;
 padding: 0.5em 25px;
 }
 
-.tableHeading TH { border-bottom: 1px solid #00584A; }
+.tableHeading TH { border-bottom: 1px solid #008364; }
 
 .tableHeading, #cartSubTotal { background-color: #e9e9e9; }
 
 #cartSubTotal {
-border-top: 1px solid #00584A;
+border-top: 1px solid #008364;
 text-align: right;
 line-height: 2.2em;
 padding-right: 2.5em;
@@ -330,7 +330,7 @@ margin: 1em 0em;
     padding-left: 0.7em;
 }
 
-.centerBoxWrapper { border: 1px solid #00584A; height: 1%; }
+.centerBoxWrapper { border: 1px solid #008364; height: 1%; }
 
 h2.centerBoxHeading { font-size: 1.0em; color: #ffffff; }
 
@@ -347,13 +347,13 @@ color: #ffffff;
 
 .leftBoxHeading, .centerBoxHeading, .rightBoxHeading {
 margin: 0em;
-background-color: #00584A;
+background-color: #008364;
 padding: 0.5em 0.2em;
 }
 
 .leftBoxContainer, .rightBoxContainer {
 margin: 0em;
-border: 1px solid #00584A;
+border: 1px solid #008364;
 border-bottom: 5px solid #336633;
 margin-top: 0.5em;
 }
@@ -441,15 +441,15 @@ ul#productDetailsList {
 width:inherit;
 list-style-type: circle;
 padding:0 25px;
-border:solid 1px #00584A;
+border:solid 1px #008364;
 }
 
 ul#productDetailsList li { padding:0.5em 0; } 
 
-table.tabTable { border: 1px solid #00584A; }
+table.tabTable { border: 1px solid #008364; }
 
 .productListing-rowheading {
-background-color: #00584A;
+background-color: #008364;
 height: 2em; color: #FFFFFF;
 }
 
