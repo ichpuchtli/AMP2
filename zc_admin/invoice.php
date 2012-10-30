@@ -59,7 +59,7 @@ function couponpopupWindow(url) {
 
         <td class="pageHeading" align="right">
 
-        <table border="0" cellspacing="0" cellpadding="5">
+        <table border="0" cellspacing="0" cellpadding="4">
         <tr>
            <td><h1><strong>Tax Invoice</strong></h1></td>
         </tr>
@@ -75,6 +75,10 @@ function couponpopupWindow(url) {
           <tr>
             <td><strong>ABN:</strong></td>
             <td>70 149 300 452<td>
+          </tr>
+          <tr>
+            <td><strong>FAX:</strong></td>
+            <td>(07) 3354 2927<td>
           </tr>
         </table>
         </td>
