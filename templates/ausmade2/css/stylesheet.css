@@ -12,7 +12,7 @@
 
 body { font-family: sans-serif; font-size: 90%; color: #333; }
 
-img a { border:none; }
+a img { border:none; }
 
 a:visited, a:link { color: #004080; text-decoration: none; }
 a:hover { text-decoration: underline; } 
