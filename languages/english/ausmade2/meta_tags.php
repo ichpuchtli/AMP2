@@ -8,7 +8,7 @@
  */
 
 // page title
-define('TITLE', 'AustralianMadeProducts.com!');
+define('TITLE', 'AustralianMadeProducts.com');
 
 // Site Tagline
 define('SITE_TAGLINE', 'Supporting Australian Produce');
