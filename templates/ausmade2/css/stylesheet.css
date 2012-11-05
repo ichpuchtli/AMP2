@@ -66,9 +66,9 @@ float: left;
 .messageStackWarning, .messageStackError, .messageStackSuccess, .messageStackCaution {
 position:fixed;
 top:0;
-margin: 10px 0px;
+left:0;
+margin-left: 240px;
 padding: 5px 10px;
-border: 1px solid;
 }
 
 .messageStackWarning img, .messageStackError img, .messageStackSuccess img, .messageStackCaution img {
