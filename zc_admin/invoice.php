@@ -50,8 +50,8 @@ function couponpopupWindow(url) {
   <tr>
     <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
       <tr>
-        <td style="width:110px;"> 
-        <?php echo zen_image(DIR_WS_IMAGES . HEADER_LOGO_IMAGE, HEADER_ALT_TEXT); ?>
+        <td height="<?php echo HEADER_LOGO_HEIGHT; ?>" width="<?php echo HEADER_LOGO_WIDTH + 20; ?>" align="center" > 
+        <img src="<?php echo DIR_WS_IMAGES . HEADER_LOGO_IMAGE; ?>" height="<?php echo HEADER_LOGO_HEIGHT; ?>" width="<?php echo HEADER_LOGO_WIDTH; ?>" alt="" />
         </td>
         <td class="pageHeading">
             <?php echo nl2br(STORE_NAME_ADDRESS); ?>
@@ -59,9 +59,9 @@ function couponpopupWindow(url) {
 
         <td class="pageHeading" align="right">
 
-        <table border="0" cellspacing="0" cellpadding="4">
+        <table border="0" cellspacing="0" cellpadding="1">
         <tr>
-           <td><h1><strong>Tax Invoice</strong></h1></td>
+           <td colspan="2"><h1><strong>Tax Invoice</strong></h1></td>
         </tr>
 
           <tr>
