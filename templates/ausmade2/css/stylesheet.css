@@ -87,12 +87,11 @@ color: #9f6000;
 /*wrappers - page or section containers*/
 #mainWrapper { text-align: left; width: 1024px; vertical-align: top; }
 
-#logoWrapper{ height:75px; padding:0.5em; }
+#logoWrapper{ height:83px; padding-top:20px; }
 
 #navColumnOneWrapper, #navColumnTwoWrapper, #mainWrapper { margin: auto; } 
 
 #navColumnOneWrapper, #navColumnTwoWrapper {
-margin-left: 0.5em;
 margin-right: 0.5em;
 }
 
@@ -101,7 +100,7 @@ vertical-align: middle;
 font: bold 3.0em 'Port Lligat Slab';
 text-shadow: 1px 2px 0 #888888;
 color:#FEA931;
-margin-top: 50px;
+margin-top: 45px;
 margin-left: 120px;
 }
 
