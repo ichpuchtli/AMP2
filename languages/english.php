@@ -203,9 +203,9 @@
   define('ENTRY_STREET_ADDRESS', 'Street Address:');
   define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' characters.');
   define('ENTRY_STREET_ADDRESS_TEXT', '*');
-  define('ENTRY_SUBURB', 'Address Line 2:');
+  define('ENTRY_SUBURB', 'Suburb');
   define('ENTRY_SUBURB_ERROR', '');
-  define('ENTRY_SUBURB_TEXT', '');
+  define('ENTRY_SUBURB_TEXT', '*');
   define('ENTRY_POST_CODE', 'Post/Zip Code:');
   define('ENTRY_POST_CODE_ERROR', 'Your Post/ZIP Code must contain a minimum of ' . ENTRY_POSTCODE_MIN_LENGTH . ' characters.');
   define('ENTRY_POST_CODE_TEXT', '*');
@@ -213,7 +213,7 @@
   define('ENTRY_CUSTOMERS_REFERRAL', 'Referral Code:');
 
   define('ENTRY_CITY_ERROR', 'Your City must contain a minimum of ' . ENTRY_CITY_MIN_LENGTH . ' characters.');
-  define('ENTRY_CITY_TEXT', '*');
+  define('ENTRY_CITY_TEXT', '');
   define('ENTRY_STATE', 'State/Province:');
   define('ENTRY_STATE_ERROR', 'Your State must contain a minimum of ' . ENTRY_STATE_MIN_LENGTH . ' characters.');
   define('ENTRY_STATE_ERROR_SELECT', 'Please select a state from the States pull down menu.');
@@ -222,9 +222,9 @@
   define('ENTRY_COUNTRY', 'Country:');
   define('ENTRY_COUNTRY_ERROR', 'You must select a country from the Countries pull down menu.');
   define('ENTRY_COUNTRY_TEXT', '*');
-  define('ENTRY_TELEPHONE_NUMBER', 'Home:');
+  define('ENTRY_TELEPHONE_NUMBER', 'Home or Mobile:');
   define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Your Telephone Number must contain a minimum of ' . ENTRY_TELEPHONE_MIN_LENGTH . ' characters.');
-  define('ENTRY_TELEPHONE_NUMBER_TEXT', '');
+  define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
   define('ENTRY_FAX_NUMBER', 'Mobile:');
   define('ENTRY_FAX_NUMBER_ERROR', '');
   define('ENTRY_FAX_NUMBER_TEXT', '*');

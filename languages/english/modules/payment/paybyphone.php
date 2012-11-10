@@ -22,13 +22,13 @@
 
 
   define('MODULE_PAYMENT_PAYBYPHONE_TEXT_EMAIL_FOOTER', 
-  "Please call our office to pay for your total order value:\n\n" .
+  "Please call our office or we will call you.\n\n" .
   "\nPhone No.:  " . MODULE_PAYMENT_PAYBYPHONE_PHONENUM .
-  "\n\nThanks for your order which will ship immediately once we receive payment.\n");
+  "\n\nWe will ship immediately once we receive payment.\n");
 
-  define('MODULE_PAYMENT_PAYBYPHONE_TEXT_TITLE', 'Pay by Phone');
+  define('MODULE_PAYMENT_PAYBYPHONE_TEXT_TITLE', 'Pay by Phone(Preferred Method)');
    define('MODULE_PAYMENT_PAYBYPHONE_TEXT_DESCRIPTION', 
-  '<br />Please call our office to pay for your total order value:<br />' . 
+  '<br />Please call our office or we will call you.<br />' . 
   "\nPhone No.:  " . MODULE_PAYMENT_PAYBYPHONE_PHONENUM .
-  '<p>Thanks for your order which will ship immediately once we receive payment.</p>');
+  '<p>We will ship immediately once we receive payment.</p>');
 ?>
