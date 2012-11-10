@@ -8,17 +8,18 @@
  */
 
 // page title
-define('TITLE', 'AustralianMadeProducts.com');
+define('TITLE', 'Australian Made Products, Supporting local business and manufactoring');
 
 // Site Tagline
-define('SITE_TAGLINE', 'Supporting Australian Produce');
+define('SITE_TAGLINE', '');
 
 // Custom Keywords
-define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
+define('CUSTOM_KEYWORDS', '');
 
 // Home Page Only:
-  define('HOME_PAGE_META_DESCRIPTION', '');
-  define('HOME_PAGE_META_KEYWORDS', '');
+  define('HOME_PAGE_META_DESCRIPTION', 'Brisbane based business selling Australian made products and groceries online. International and domestic shipping, supporting Aussie business and manufacturing.');
+
+  define('HOME_PAGE_META_KEYWORDS', 'online australian groceries supplier local food products aussie manufacturing business brisbane queensland oz onlyoz aus shopping shop buy australian made AAAA ship delivery');
 
   // NOTE: If HOME_PAGE_TITLE is left blank (default) then TITLE and SITE_TAGLINE will be used instead.
   define('HOME_PAGE_TITLE', ''); // usually best left blank
