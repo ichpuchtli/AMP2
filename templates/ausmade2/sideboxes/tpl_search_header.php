@@ -16,7 +16,7 @@
   if (strtolower(IMAGE_USE_CSS_BUTTONS) == 'yes') {
     $content .= zen_draw_input_field('keyword', '', 'maxlength="30" value="' . HEADER_SEARCH_DEFAULT_TEXT . '" onfocus="if (this.value == \'' . HEADER_SEARCH_DEFAULT_TEXT . '\') this.value = \'\';" onblur="if (this.value == \'\') this.value = \'' . HEADER_SEARCH_DEFAULT_TEXT . '\';"') . '&nbsp;' . zen_image_submit (BUTTON_IMAGE_SEARCH,HEADER_SEARCH_BUTTON);
   } else {
-    $content .= zen_draw_input_field('keyword', '', 'maxlength="30" value="' . HEADER_SEARCH_DEFAULT_TEXT . '" onfocus="if (this.value == \'' . HEADER_SEARCH_DEFAULT_TEXT . '\') this.value = \'\';" onblur="if (this.value == \'\') this.value = \'' . HEADER_SEARCH_DEFAULT_TEXT . '\';"') . '&nbsp;<input type="submit" value="' . HEADER_SEARCH_BUTTON . ' />';
+    $content .= zen_draw_input_field('keyword', '', 'maxlength="30" value="' . HEADER_SEARCH_DEFAULT_TEXT . '" onfocus="if (this.value == \'' . HEADER_SEARCH_DEFAULT_TEXT . '\') this.value = \'\';" onblur="if (this.value == \'\') this.value = \'' . HEADER_SEARCH_DEFAULT_TEXT . '\';"') . '&nbsp;<input type="submit" value="' . HEADER_SEARCH_BUTTON . '" />';
   }
 
   $content .= "</form>";
