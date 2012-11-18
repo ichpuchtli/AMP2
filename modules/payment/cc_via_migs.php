@@ -69,7 +69,7 @@
 
 // Customise the following defined variable to the server hosted VPC URL if required
 define('MODULE_PAYMENT_MIGS_INTEGRATION_MODEL_SERVER_HOSTED_VPC_URL', 'https://migs.mastercard.com.au/vpcpay'); // Updated by Jay
-// define('MODULE_PAYMENT_MIGS_INTEGRATION_MODEL_SERVER_HOSTED_VPC_URL', 'https://migs.mastercard.com.au/ma/ANZAU');
+//define('MODULE_PAYMENT_MIGS_INTEGRATION_MODEL_SERVER_HOSTED_VPC_URL', 'https://migs.mastercard.com.au/ma/ANZAU');
 //define('MODULE_PAYMENT_MIGS_INTEGRATION_MODEL_MERCHANT_HOSTED_VPC_URL', 'https://migs.mastercard.com.au/vpcpay'); // Default Australian Virtual Payment Client
 
 define('MODULE_PAYMENT_MIGS_TEXT_TITLE', 'MIGS');

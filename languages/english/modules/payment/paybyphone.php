@@ -26,7 +26,7 @@
   "\nPhone No.:  " . MODULE_PAYMENT_PAYBYPHONE_PHONENUM .
   "\n\nWe will ship immediately once we receive payment.\n");
 
-  define('MODULE_PAYMENT_PAYBYPHONE_TEXT_TITLE', 'Pay by Phone(Preferred Method)');
+  define('MODULE_PAYMENT_PAYBYPHONE_TEXT_TITLE', 'Pay by Phone');
    define('MODULE_PAYMENT_PAYBYPHONE_TEXT_DESCRIPTION', 
   '<br />Please call our office or we will call you.<br />' . 
   "\nPhone No.:  " . MODULE_PAYMENT_PAYBYPHONE_PHONENUM .
